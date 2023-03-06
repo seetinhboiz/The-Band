@@ -1,0 +1,17 @@
+Website The Band - w3school
+
+- Phân tích: --> OK
+1. Header --> OK
+2. Slider --> OK
+3. Content
+	3.1. About (Giới thiệu)
+	3.2. Tour (Lịch diễn)
+	3.3. Contact
+	3.4. Image
+4. Footer
+
+- Dựng base (xây mống)
+
+- Xây dựng từng phần theo phân tích
+
+- Hoàn thiện
