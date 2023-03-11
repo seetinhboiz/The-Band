@@ -17,6 +17,38 @@
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn/vuông, ...)
 */
+/* Common */
+.text-center {
+    text-align: center !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.com-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
 
 .clear {
     clear: both;
@@ -26,6 +58,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main */
 #header {
     z-index: 1;
     position: fixed;
@@ -175,12 +208,6 @@ html {
     padding: 32px 0;
 }
 
-#content .member-items {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
-}
-
 #content .member-name {
     margin: 15px 0;
     font-size: 15px;
@@ -231,14 +258,8 @@ html {
 
 /* Places */
 .place-list {
-    padding: 32px 0;
-    margin: 0 -8px;
-}
-
-.place-item {
-    float: left;
-    width: 33.33333%;
-    padding: 0 8px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .place-img {
@@ -284,4 +305,42 @@ html {
 .place-buy-btn:hover {
     color: #000;
     background-color: #ccc;
+}
+
+/* Contact */
+.contact-content {
+    padding-top: 48px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    display: inline-block;
+    width: 30px;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-row1 {
+    padding: 10px 10px;
+} 
+
+.contact-form .form-row2 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-send {
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 9px 14px;
+    background-color: #000;
+    color: #fff;
 }
