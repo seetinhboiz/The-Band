@@ -9,6 +9,14 @@
 }
 
 @media (max-width: 739px) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    header {
+        overflow: hidden;
+    }
+
     #nav {
         display: block;
     }
@@ -31,5 +39,14 @@
 
     #header .mobile-menu-btn {
         display: block;
+    }
+    
+    #content .s-col-member {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
     }
 }
