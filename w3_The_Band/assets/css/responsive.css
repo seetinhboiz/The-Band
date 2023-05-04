@@ -49,4 +49,8 @@
     #content .member-img {
         width: 60%;
     }
+
+    .row.contact-content.flex {
+        display: block;
+    }
 }
